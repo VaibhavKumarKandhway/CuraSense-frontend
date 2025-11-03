@@ -27,3 +27,6 @@ Features left:
    Making it mobile compatible.
    Connecting with ml model.
    Connecting api endpoints.
+
+Newly introduced bugs:
+   Dark mode not working properly - changing blue colour to high contrast black, random white textboxes.
