@@ -16,3 +16,6 @@ yarn-error.log*
 /.cache/
 /.parcel-cache/
 Thumbs.db
+
+# Local Netlify folder
+.netlify
