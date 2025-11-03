@@ -47,7 +47,10 @@ const NavItem = ({ children, icon: Icon, active }) => (
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      <div className="brand">MedSafe</div>
+      <div className="brand">
+        <div className="brand-main">CuraSense</div>
+        <div className="brand-sub">Diagnosis</div>
+      </div>
       <nav className="nav">
         <NavItem icon={HomeIcon} active>Home</NavItem>
         <NavItem icon={AnalyzeIcon}>Analyze</NavItem>
