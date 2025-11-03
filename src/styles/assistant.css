@@ -1,0 +1,37 @@
+.assistant{width:320px;padding:32px 24px}
+.assistant-box{background:var(--card);padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.05),0 1px 2px rgba(0,0,0,0.1)}
+.assistant-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.assistant-header h4{font-size:16px;font-weight:600;margin:0;color:var(--accent)}
+
+.theme-toggle{display:flex;gap:4px;padding:4px;background:var(--theme-toggle-bg);border-radius:8px}
+.theme-btn{padding:6px;border:none;background:none;color:var(--muted);cursor:pointer;border-radius:6px;line-height:0}
+.theme-btn svg{width:16px;height:16px}
+.theme-btn.active{background:var(--theme-toggle-active);color:var(--accent)}
+
+.chat{margin:0 -8px 20px}
+.bubble{padding:12px 16px;border-radius:12px;margin:0 8px 12px;max-width:240px;font-size:14px;line-height:1.5}
+.bubble.question{background:var(--chat-bg);color:var(--chat-text);margin-left:auto}
+.bubble.answer{background:var(--primary);color:white}
+
+.input-container{position:relative;margin:16px 0}
+.input-container input{width:100%;padding:12px 16px;padding-right:44px;border-radius:8px;border:1px solid var(--border-color);
+  font-size:14px;background:var(--input-bg);color:var(--input-text);transition:all 0.2s}
+.input-container input::placeholder{color:var(--input-placeholder)}
+.input-container input:focus{outline:none;border-color:var(--primary)}
+
+.send-button{position:absolute;right:8px;top:50%;transform:translateY(-50%);
+  padding:8px;border:none;background:none;color:var(--muted);cursor:pointer;border-radius:6px;
+  opacity:0.5;transition:all 0.2s;line-height:0}
+.send-button svg{width:16px;height:16px}
+.send-button.active{opacity:1;color:var(--send-button)}
+.send-button.active:hover{background:var(--chat-bg)}
+
+.recent-reports{margin-top:24px;padding-top:20px;border-top:1px solid var(--border-color)}
+.recent-reports h5{font-size:14px;font-weight:600;margin:0 0 16px;color:var(--accent)}
+.recent-reports ul{margin:0;padding:0;list-style:none}
+.recent-reports li{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--border-color)}
+.recent-reports li:last-child{border-bottom:none}
+.recent-reports li svg{width:20px;height:20px;color:var(--muted)}
+.report-info{flex:1;min-width:0}
+.report-title{display:block;font-size:14px;color:var(--accent);margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.date{font-size:12px;color:var(--muted)}
