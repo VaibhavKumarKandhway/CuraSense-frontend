@@ -31,3 +31,6 @@ Features left:
 Newly introduced bugs:
    Dark mode not working properly - changing blue colour to high contrast black, random white textboxes.
    Disappearance of submit button (minor bug).
+   CuraSense logo not visible in dark mode.
+   Addiing new transitions using acernity ui.
+   
